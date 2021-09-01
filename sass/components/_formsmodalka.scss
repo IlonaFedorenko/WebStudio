@@ -99,7 +99,7 @@
 
 .agreement__text {
   color: $accent-color;
-  padding-left: 2px;
+  padding-left: 1px;
 }
 
 .agreement {
@@ -131,8 +131,17 @@
 }
 
 .agreement__item {
-  display: flex;
+  display: block;
   margin-bottom: 30px;
+  @media screen and (max-width: 1199px) {
+    display: flex;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .button-item__sumbit {
