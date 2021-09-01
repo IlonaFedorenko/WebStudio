@@ -180,19 +180,46 @@
             <div class="container">
                 <h2 class="heading-text">Чем мы занимаемся</h2>
                 <ul class="works">
-                    <li class="works__item"><img class="img" src="./images/box1.jpg" alt="ноутбук и чертежи"
-                            width="370">
+                    <li class="works__item">
+                        <img class="img"
+                        srcset="
+                        ./images/box1x370.jpg x1,
+                        ./images/box1x640.jpg x2,
+                        ./images/box1x980.jpg x3
+                        "
+                         src="./images/box1x370.jpg"
+                         alt="ноутбук и чертежи"
+                         width="370">
+
                         <div class="works-box">
                             <h3 class="works-box__item">Десктопные приложения</h3>
                         </div>
                     </li>
-                    <li class="works__item"><img class="img" src="./images/box2.jpg"
-                            alt="женщина с телефоном в руках и ноутбук" width="370">
+                    <li class="works__item">
+                        <img class="img"
+                        srcset="
+                        ./images/box2x370.jpg x1,
+                        ./images/box2x640.jpg x2,
+                        ./images/box2x980.jpg x3
+                        "
+                         src="./images/box2x370.jpg"
+                         alt="женщина с телефоном в руках и ноутбук"
+                         width="370">
+
                         <div class="works-box">
                             <h3 class="works-box__item">Мобильные приложения</h3>
                         </div>
                     </li>
-                    <li class="works__item"><img class="img" src="./images/box3.jpg" alt="в руках планшет" width="370">
+                    <li class="works__item">
+                        <img class="img"
+                        srcset="
+                        ./images/box3x370.jpg x1,
+                        ./images/box3x640.jpg x2,
+                        ./images/box3x980.jpg x3
+                        "
+                         src="./images/box3x370.jpg"
+                         alt="в руках планшет"
+                         width="370">
                         <div class="works-box">
                             <h3 class="works-box__item">Дизайнерские решения</h3>
                         </div>
@@ -205,8 +232,15 @@
                 <h2 class="heading-text">Наша команда</h2>
                 <ul class="team-conteiner">
                     <li class="team-conteiner__list">
-                        <img class="team-images" src="./images/igor.jpg" alt="мужчина в рубашке ,очках и с бородой"
-                            width="270">
+                        <img class="team-images"
+                        srcset="
+                        ./images/igor270.jpg x1,
+                        ./images/igor640.jpg x2,
+                        ./images/igor980.jpg x3
+                        "
+                         src="./images/igor270.jpg"
+                         alt="мужчина в рубашке ,очках и с бородой"
+                         width="270">
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Игорь Демьяненко</h3>
                             <p class="team-conteiner__work">Product Designer</p>
@@ -236,8 +270,15 @@
 
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images" src="./images/olga.jpg" alt="женщина блондинка,в очках и в пиджаке"
-                            width="270">
+                        <img class="team-images"
+                        srcset="
+                        ./images/olga270.jpg x1,
+                        ./images/olga640.jpg x2,
+                        ./images/olga980.jpg x3
+                        "
+                         src="./images/olga270.jpg" 
+                         alt="женщина блондинка,в очках и в пиджаке"
+                         width="270">
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Ольга Репина</h3>
                             <p class="team-conteiner__work">Frontend Developer</p>
@@ -266,7 +307,15 @@
                         </div>
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images" src="./images/nicolay.jpg" alt="мужчина в голубой рубашке" width="270">
+                        <img class="team-images"
+                        srcset="
+                        ./images/nicolay270.jpg x1,
+                        ./images/nicolay640.jpg x2,
+                        ./images/nicolay980.jpg x3
+                        "
+                         src="./images/nicolay270.jpg"
+                         alt="мужчина в голубой рубашке"
+                         width="270">
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Николай Тарасов</h3>
                             <p class="team-conteiner__work">Marketing
@@ -296,8 +345,15 @@
                         </div>
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images" src="./images/michael.jpg"
-                            alt="мужчина в черной футболке с бородой и очками" width="270">
+                        <img class="team-images"
+                        srcset="
+                        ./images/michael270.jpg x1,
+                        ./images/michael640.jpg x2,
+                        ./images/michael980.jpg x3
+                        "
+                         src="./images/michael270.jpg"
+                         alt="мужчина в черной футболке с бородой и очками"
+                         width="270">
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Михаил Ермаков</h3>
                             <p class="team-conteiner__work">UI Designer</p>
@@ -363,58 +419,60 @@
     </main>
     <footer class="footer-container">
         <div class="footer container">
-            <div class="footer-element">
-                <a href="" class="footer-element__logo"><span class="footer-element__item">Web</span>Studio</a>
-                <address>
-                    <ul class="footer-nav">
-                        <li class="footer-nav__address">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li class="footer-nav__item"><a class="footer-nav__link"
-                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li class="footer-nav__item"><a class="footer-nav__link" href="tel:+380961111111">+38 096 111 11
-                                11</a></li>
+            <div class="box-footer">
+                <div class="footer-element">
+                    <a href="" class="footer-element__logo"><span class="footer-element__item">Web</span>Studio</a>
+                    <address>
+                        <ul class="footer-nav">
+                            <li class="footer-nav__address">г. Киев, пр-т Леси Украинки, 26</li>
+                            <li class="footer-nav__item"><a class="footer-nav__link"
+                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                            <li class="footer-nav__item"><a class="footer-nav__link" href="tel:+380961111111">+38 096 111 11
+                                    11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-item">
+                    <h3 class="heading-footer">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                    <ul class="footer-icons">
+                        <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
+                                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
+                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
+                                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
-                </address>
+                </div>
+    
             </div>
-            <div class="footer-item">
-                <h3 class="heading-footer">ПРИСОЕДИНЯЙТЕСЬ</h3>
-                <ul class="footer-icons">
-                    <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
-                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
-                                <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
-                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-icons__item"><a href="" class="footer-icons__link"><svg class="footer-icons__svg">
-                                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <form>
-                    <h3 class="heading-footer">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
-                    <label class="footer-form__mail">
-                        <input type="email" name="mail" placeholder="E-mail" class="mail-subscr">
-                    </label>
-                    <label class="footer-form__button">
-                        <button type="submit" class="button-subscr">Подписаться
-                            <svg class="icons-subscr">
-                                <use href="./images/symbol-defs.svg#icon-send"></use>
-                            </svg>
-                        </button>
-                    </label>
-                </form>
-            </div>
+            <form>
+                <h3 class="heading-footer">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+                <label class="footer-form__mail">
+                    <input type="email" name="mail" placeholder="E-mail" class="mail-subscr">
+                </label>
+                <label class="footer-form__button">
+                    <button type="submit" class="button-subscr">Подписаться
+                        <svg class="icons-subscr">
+                            <use href="./images/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                    </button>
+                </label>
+            </form>
+        </div>
         </div>
     </footer>
     <script src="./js/modal.js"></script>
