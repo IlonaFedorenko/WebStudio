@@ -7,40 +7,16 @@
   color: $primary-text-color;
   text-align: center;
   margin-bottom: 16px;
-
-  /* @media screen and (min-width: 480px) {
-    text-align: center;
-    margin-bottom: 16px;
-  }
-  @media screen and (min-width: 768px) {
-    text-align: center;
-    margin-bottom: 16px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    text-align: center;
-    margin-bottom: 16px;
-  } */
 }
 
 .team-conteiner {
-  /*  display: flex; */
-  @media screen and (max-width: 767px) {
-    display: flex;
-  }
-  /* @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-  } */
+  display: flex;
   @media screen and (max-width: 768px) {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: -15px;
   }
-
   @media screen and (min-width: 1200px) {
-    display: flex;
   }
 }
 

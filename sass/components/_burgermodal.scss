@@ -26,8 +26,9 @@
   border-radius: 50%;
   outline: none;
   top: 5px;
-  &:focus .menu__svg,
-  &:hover .menu__svg {
+}
+.menu__svg {
+  .menu-toggle {
     color: $accent-color;
   }
 }
@@ -80,7 +81,6 @@
 
 .menu-nav__link {
   text-decoration: none;
-
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
@@ -89,15 +89,14 @@
   &.tel {
     font-size: 34px;
     line-height: 1.17;
-
     color: #2196f3;
   }
 }
-.menu-social__link {
-  text-decoration: none;
-}
 .menu-social {
   display: flex;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
 }
 .menu-social__link {
   font-weight: 500;
@@ -105,13 +104,11 @@
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196f3;
+  text-decoration: none;
 }
 .menu-nav__item.tel {
   margin-bottom: 32px;
 }
 .menu-nav {
   margin-bottom: 64px;
-}
-.menu-social__item:not(:last-child) {
-  margin-right: 20px;
 }

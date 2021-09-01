@@ -32,19 +32,13 @@
 }
 
 .advantages-container {
-  /* display: flex; */
-  /* @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-  } */
+  display: flex;
   @media screen and (max-width: 1199px) {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: -15px;
   }
   @media screen and (min-width: 1200px) {
-    display: flex;
     flex-wrap: nowrap;
   }
 }
