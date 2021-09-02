@@ -2,7 +2,7 @@
   font-weight: 700;
   color: $second-color-black;
   margin-bottom: 10px;
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -15,12 +15,12 @@
 }
 
 .advantages-container__list {
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
   &:not(:last-child) {
-    @media screen and (min-width: 0px) and (max-width: 767px) {
+    @media screen and (min-width: 480px) {
       margin-bottom: 30px;
     }
     @media screen and (min-width: 768px) {
@@ -36,7 +36,6 @@
   @media screen and (max-width: 1199px) {
     flex-wrap: wrap;
     justify-content: center;
-    margin: -15px;
   }
   @media screen and (min-width: 1200px) {
     flex-wrap: nowrap;
