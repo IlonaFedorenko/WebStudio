@@ -11,6 +11,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
   @media screen and (min-width: 480px) {
     width: 480px;
   }
@@ -58,8 +59,10 @@ p {
   }
 }
 .img,
-.team-images .box-gallery__images {
+.team-images,
+.box-gallery__images {
   display: block;
   width: 100%;
   height: auto;
+  object-fit: cover;
 }

@@ -7,6 +7,11 @@
     height: 80px;
   }
 }
+.container.container-contacts {
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
 
 .contacts {
   display: flex;
@@ -22,6 +27,7 @@
 
 .container-contacts {
   position: relative;
+  width: 100%;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;

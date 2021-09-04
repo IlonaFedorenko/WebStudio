@@ -123,13 +123,8 @@
 }
 .social-menu__item:not(:last-child):after {
   content: "";
-  /* position: absolute; */
   display: inline-block;
   height: 22px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   margin-left: 10px;
-}
-.social-menu__link {
-  color: #757575;
-  text-decoration: none;
 }
