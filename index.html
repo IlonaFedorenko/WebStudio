@@ -23,7 +23,7 @@
                 <div class="logo">
                 <a href="" class="logo__link"><span class="logo__element">Web</span>Studio</a>
                 </div>
-                <div class="menu is-hidden">
+                <div class="menu">
                     <button type="button" class="menu-toggle js-open-menu" aria-expanded="false"
                         aria-controls="mobile-menu">
                         <svg class="menu__svg" width="40" height="40" aria-label="Переключатель мобильного меню">
@@ -44,6 +44,7 @@
                                     href="./portfolio.html">Портфолио</a></li>
                             <li class="navigation-menu__item"><a class="navigation-menu__link" href="">Контакты</a></li>
                         </ul>
+                        <div>
                         <ul class="contacts-menu">
                             <li class="contacts-menu__item tel"><a class="contacts-menu__link tel" href="">+38 096 111 11 11</a></li>
                             <li class="contacts-menu__item"><a class="contacts-menu__link" href="">info@devstudio.com</a></li>
@@ -54,6 +55,7 @@
                             <li class="social-menu__item"><a class="social-menu__link" href="">Facebook</a></li>
                             <li class="social-menu__item"><a class="social-menu__link" href="">LinkedIn</a></li>
                         </ul>
+                        </div>
                     </div>
                 </div>
                 <ul class="navigation">
@@ -181,42 +183,28 @@
                 <h2 class="heading-text">Чем мы занимаемся</h2>
                 <ul class="works">
                     <li class="works__item">
-                        <img class="img"
-                        srcset="
-                        ./images/box1x370.jpg 1x,
-                        ./images/box1x640.jpg 2x,
-                        "
-                         src="./images/box1x370.jpg"
-                         alt="ноутбук и чертежи"
-                         width="370">
-
+                        <picture>
+                            <source srcset="./images/box1x370.jpg 1x, ./images/box1x640.jpg 2x" media="(min-width: 1200px)">
+                            <img class="img" src="./images/box1x370.jpg" alt="ноутбук и чертежи" width="370">
+                        </picture>
                         <div class="works-box">
                             <h3 class="works-box__item">Десктопные приложения</h3>
                         </div>
                     </li>
                     <li class="works__item">
-                        <img class="img"
-                        srcset="
-                        ./images/box2x370.jpg x1,
-                        ./images/box2x640.jpg x2,
-                        "
-                         src="./images/box2x370.jpg"
-                         alt="женщина с телефоном в руках и ноутбук"
-                         width="370">
-
+                        <picture>
+                            <source srcset="./images/box2x370.jpg 1x, ./images/box2x640.jpg 2x" media="(min-width: 1200px)">
+                            <img class="img" src="./images/box2x370.jpg" alt="женщина с телефоном в руках и ноутбук" width="370">
+                        </picture>
                         <div class="works-box">
                             <h3 class="works-box__item">Мобильные приложения</h3>
                         </div>
                     </li>
                     <li class="works__item">
-                        <img class="img"
-                        srcset="
-                        ./images/box3x370.jpg x1,
-                        ./images/box3x640.jpg x2,
-                        "
-                         src="./images/box3x370.jpg"
-                         alt="в руках планшет"
-                         width="370">
+                        <picture>
+                            <source srcset="./images/box3x370.jpg 1x, ./images/box3x640.jpg 2x" media="(min-width: 1200px)">
+                            <img class="img" src="./images/box3x370.jpg" alt="в руках планшет" width="370">
+                        </picture>
                         <div class="works-box">
                             <h3 class="works-box__item">Дизайнерские решения</h3>
                         </div>
@@ -229,14 +217,10 @@
                 <h2 class="heading-text">Наша команда</h2>
                 <ul class="team-conteiner">
                     <li class="team-conteiner__list">
-                        <img class="team-images"
-                        srcset="
-                        ./images/igor1x.jpg 1x,
-                        ./images/igor2x.jpg 2x
-                        "
-                         src="./images/igor1x.jpg"
-                         alt="мужчина в рубашке ,очках и с бородой"
-                         width="270">
+                        <picture>
+                            <source srcset="./images/igor1x.jpg 1x, ./images/igor2x.jpg 2x" type="image/jpg" media="(min-width: 768px)">
+                            <img class="img" src="./images/igor1x.jpg" alt="мужчина в рубашке ,очках и с бородой" width="270">
+                        </picture>
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Игорь Демьяненко</h3>
                             <p class="team-conteiner__work">Product Designer</p>
@@ -266,14 +250,10 @@
 
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images"
-                        srcset="
-                        ./images/olga1x.jpg 1x,
-                        ./images/olga2x.jpg 2x
-                        "
-                         src="./images/olga1x.jpg" 
-                         alt="женщина блондинка,в очках и в пиджаке"
-                         width="270">
+                        <picture>
+                            <source srcset="./images/olga1x.jpg 1x, ./images/olga2x.jpg 2x" type="image/jpg" media="(min-width: 768px)">
+                            <img class="img" src="./images/olga1x.jpg" alt="женщина блондинка,в очках и в пиджаке" width="270">
+                        </picture>
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Ольга Репина</h3>
                             <p class="team-conteiner__work">Frontend Developer</p>
@@ -302,14 +282,10 @@
                         </div>
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images"
-                        srcset="
-                        ./images/nicolay1x.jpg 1x,
-                        ./images/nicolay1x.jpg 2x
-                        "
-                         src="./images/nicolay1x.jpg"
-                         alt="мужчина в голубой рубашке"
-                         width="270">
+                        <picture>
+                            <source srcset="./images/nicolay1x.jpg 1x, ./images/nicolay2x.jpg 2x" type="image/jpg" media="(min-width: 768px)">
+                            <img class="img" src="./images/nicolay1x.jpg" alt="мужчина в голубой рубашке" width="270">
+                        </picture>
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Николай Тарасов</h3>
                             <p class="team-conteiner__work">Marketing
@@ -339,14 +315,10 @@
                         </div>
                     </li>
                     <li class="team-conteiner__list">
-                        <img class="team-images"
-                        srcset="
-                        ./images/michael1x.jpg 1x,
-                        ./images/michael1x.jpg 2x
-                        "
-                         src="./images/michael1x.jpg"
-                         alt="мужчина в черной футболке с бородой и очками"
-                         width="270">
+                        <picture>
+                            <source srcset="./images/michael1x.jpg 1x, ./images/michael2x.jpg 2x" type="image/jpg" media="(min-width: 768px)">
+                            <img class="img" src="./images/michael1x.jpg" alt="мужчина в черной футболке с бородой и очками" width="270">
+                        </picture>
                         <div class="team-conteiner__description">
                             <h3 class="team-conteiner__text">Михаил Ермаков</h3>
                             <p class="team-conteiner__work">UI Designer</p>
