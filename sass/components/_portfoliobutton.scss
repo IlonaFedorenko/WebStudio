@@ -1,6 +1,6 @@
 .filter {
   display: flex;
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     flex-wrap: wrap;
     margin-bottom: 40px;
   }
