@@ -33,12 +33,13 @@
   }
 }
 .menu-container {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 480px;
-  min-height: 796px;
+  width: 100vw;
+  min-height: 100vw;
   padding: 32px;
+  overflow-y: scroll;
   background-color: white;
   z-index: 999;
   transform: translateX(100%);
