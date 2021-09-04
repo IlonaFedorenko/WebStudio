@@ -1627,6 +1627,10 @@ p {
   }
 }
 
+.portfolio-list {
+  width: 100%;
+}
+
 @media screen and (min-width: 480px) {
   .portfolio-list {
     margin-bottom: 30px;
