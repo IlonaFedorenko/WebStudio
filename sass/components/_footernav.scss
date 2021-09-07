@@ -12,6 +12,9 @@
 }
 
 .footer-element {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
   }
@@ -42,9 +45,6 @@
   font-weight: 500;
   color: $second-color-white;
   font-style: normal;
-  @media screen and (max-width: 767px) {
-    margin-bottom: 60px;
-  }
 }
 
 .footer-nav__address {
@@ -94,17 +94,17 @@
 
   @media screen and (min-width: 1200px) {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
   }
 }
 
 .footer-item {
   @media screen and (min-width: 480px) {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 
   @media screen and (min-width: 1200px) {
-    margin-right: 93px;
+    /* margin-right: 93px; */
   }
 }
 
@@ -174,5 +174,8 @@
   }
   @media screen and (max-width: 1199px) {
     margin-bottom: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
 }

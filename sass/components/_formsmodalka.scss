@@ -133,6 +133,7 @@
 .agreement__item {
   display: block;
   margin-bottom: 30px;
+  justify-content: center;
   @media screen and (max-width: 1199px) {
     display: flex;
     font-size: 12px;
